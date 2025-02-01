@@ -1,0 +1,40 @@
+
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel-app
+    restart: always
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8000:8000"
+    networks:
+      - laravel-network
+
+  db:
+    image: mysql:latest
+    platform: linux/amd64  # Добавляем эту строку
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 135798642
+      MYSQL_DATABASE: PHP_WORK
+      MYSQL_USER: laravel_user
+      MYSQL_PASSWORD: 135798642
+    command: --port=3307
+    ports:
+      - "3307:3307"  # Изменили стандартный порт MySQL
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - laravel-network
+
+volumes:
+  dbdata:
+
+networks:
+  laravel-network:
+    driver: bridge
