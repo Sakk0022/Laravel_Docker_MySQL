@@ -28,4 +28,5 @@
 - incomes
 
 ## Работа кода 
-<img width="1440" alt="Снимок экрана 2025-02-01 в 22 11 25" src="https://github.com/user-attachments/assets/9064e41d-7293-42e7-922b-1bda95ede213" />
+<img width="1440" alt="Снимок экрана 2025-02-01 в 22 22 42" src="https://github.com/user-attachments/assets/3c5ddc4b-b51d-4131-92f2-0d86bb560d3d" />
+
