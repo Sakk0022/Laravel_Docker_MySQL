@@ -19,8 +19,13 @@
 - Пользователь: if0_38222624
 - Пароль: iHWW7kw9Tre25cn
 
+  
+
 ## Таблицы
 - sales
 - orders
 - stocks
 - incomes
+
+## Работа кода 
+<img width="1440" alt="Снимок экрана 2025-02-01 в 22 11 25" src="https://github.com/user-attachments/assets/9064e41d-7293-42e7-922b-1bda95ede213" />
