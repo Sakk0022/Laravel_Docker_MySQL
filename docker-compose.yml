@@ -23,10 +23,10 @@ services:
     platform: linux/amd64  # Добавляем эту строку
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 135798642
-      MYSQL_DATABASE: PHP_WORK
-      MYSQL_USER: laravel_user
-      MYSQL_PASSWORD: 135798642
+      MYSQL_ROOT_PASSWORD: iHWW7kw9Tre25cn
+      MYSQL_DATABASE: if0_38222624_php_work
+      MYSQL_USER: if0_38222624
+      MYSQL_PASSWORD: iHWW7kw9Tre25cn
     ports:
       - "3306:3306"
 
