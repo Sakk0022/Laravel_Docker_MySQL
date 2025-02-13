@@ -59,7 +59,7 @@ php artisan data:update
 ---
 
 ✅ Теперь ваш проект готов к работе! 🚀  
-```
+
 
 ###Пример работы 
 <img width="1440" alt="Снимок экрана 2025-02-13 в 22 40 18" src="https://github.com/user-attachments/assets/bff4af9e-d85d-4588-9b98-a270adbf775a" />
@@ -68,3 +68,4 @@ php artisan data:update
 
 
 
+```
